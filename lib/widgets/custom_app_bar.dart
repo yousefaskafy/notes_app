@@ -9,10 +9,11 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-         Text(
+        Text(
           title,
           style: const TextStyle(fontSize: 20),
         ),
+        Spacer(),
         CustomIcon(
           icon: icon,
         ),
