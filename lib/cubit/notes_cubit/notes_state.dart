@@ -1,8 +1,7 @@
-import 'package:notes_app/models/note_model.dart';
+part of 'notes_cubit.dart';
 
+@immutable
 abstract class NotesState {}
 
 class NotesInitial extends NotesState {}
-class NotesSuccess extends NotesState {
-  
-}
+class NotesSuccess extends NotesState {}
